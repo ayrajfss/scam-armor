@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Overflow menu item with custom icon -->
+    <item
+        android:id="@+id/item_overflow"
+        android:title="More"
+        app:showAsAction="always"
+        android:icon="@drawable/custome_menu">
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:title="MALWARE SCAMS"
+                app:actionLayout="@layout/cutom_menu"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item2"
+                android:title="PHISHING SCAMS"
+                app:actionLayout="@layout/cutom_menu"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item3"
+                android:title="INVESTMENT SCAMS"
+                app:actionLayout="@layout/cutom_menu"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item4"
+                android:title="CASH REWARD SCAMS"
+                app:actionLayout="@layout/cutom_menu"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>
